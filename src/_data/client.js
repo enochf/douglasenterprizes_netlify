@@ -1,21 +1,19 @@
 module.exports = {
-    name: "Code Stitch Web Designs",
+    name: "Douglas Enterprizes",
     email: "help@codestitch.app",
-    phoneForTel: "555-779-4407",
-    phoneFormatted: "(555) 779-4407",
+    phoneForTel: "303-840-2715",
+    phoneFormatted: "(303) 840-2715",
+    cellForTel: "303-921-7842",
+    cellFormatted: "(303) 921-7842",
     address: {
-        lineOne: "First Address Line",
-        lineTwo: "Second Address Line",
-        city: "Denver",
+        lineOne: "10471 Montecito Drive",
+        city: "Lone Tree",
         state: "CO",
-        zip: "80206",
-        country: "US",
+        zip: "80124",
         mapLink: "https://goo.gl/maps/UAQn4vuGDiwv7DV39",
     },
     socials: {
-        facebook: "https://www.facebook.com/",
-        instagram: "https://www.instagram.com/",
+        facebook: "https://www.facebook.com/Douglas-Enterprizes-inc-22-years-1377058135852310/",
     },
-    //! Make sure you include the file protocol (e.g. https://) and that NO TRAILING SLASH is included
-    domain: "https://www.example.com",
+    domain: "https://douglasenterprizes.com",
 };

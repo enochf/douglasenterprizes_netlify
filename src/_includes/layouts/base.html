@@ -1,5 +1,3 @@
-<!-- A fully fleshed-out <head>, dynamically changing based on client.json and the page front matter -->
-
 <!doctype html>
 <html lang="en">
     <head>
@@ -67,25 +65,26 @@
         {% endif %}
 
         <!-- Sitewide Stylesheets and Scripts -->
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
         <link rel="stylesheet" href="/assets/css/root.css" />
-        <link rel="stylesheet" href="/assets/css/dark.css" />
-        <script defer src="/assets/js/dark.js"></script>
-        <script defer src="/assets/js/nav.js"></script>
+        <link rel="stylesheet" href="/assets/css/theme.css" />
+
+        <script defer src="/assets/js/jquery.min.js"></script>
+        <script defer src="/assets/js/jquery.form.js"></script>
+        <script defer src="/assets/js/jquery.validate.js"></script>
+        <script defer src="/assets/js/jquery.parallax-1.1.3.js"></script>
+        <script defer src="/assets/js/jquery.filterizer.min.js"></script>
+        <script defer src="/assets/js/bootstrap.min.js"></script>
+        <script defer src="/assets/js/lightbox.min.js"></script>
+        <script defer src="/assets/js/slick.min.js"></script>
+        <script defer src="/assets/js/smooth-scroll.min.js"></script>
+        <script defer src="/assets/js/script.js"></script>
 
         {% block head %}{% endblock %}
 
         <title>{{ title }}</title>
     </head>
     <body>
-        <!--Screen reader skip main nav-->
-        <a
-            class="skip"
-            aria-label="skip to main content"
-            href="#main"
-            tabindex="1"
-            >Click To Skip To Main Content</a
-        >
-
         {% include "components/header.html" %}
         <main id="main">{% block body %}{% endblock %}</main>
         {% include "components/footer.html" %}
